@@ -12,7 +12,7 @@ export default function App3() {
           </h1>
         </div>
         <div className="relative mx-auto max-w-2xl gap-12 px-6 lg:px-8">
-          <div className="mt-6 text-lg text-base sm:text-lg text-center max-w-">
+          <div className="mt-6 text-lg sm:text-lg text-center max-w-">
             Use this project to kickstart Subframe. It includes configuration
             files, dependencies you will need, and a clean slate for getting
             started.
