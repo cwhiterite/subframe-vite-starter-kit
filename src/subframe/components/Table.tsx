@@ -9,7 +9,7 @@
 
 import React from "react";
 import * as SubframeCore from "@subframe/core";
-import { DropdownMenu } from "./DropdownMenu";
+//import { DropdownMenu } from "./DropdownMenu";
 
 interface RowProps extends React.HTMLAttributes<HTMLTableRowElement> {
   children?: React.ReactNode;
@@ -36,7 +36,7 @@ const Row = React.forwardRef<HTMLElement, RowProps>(function Row(
   );
 });
 
-interface CellProps extends React.TdHTMLAttributes<HTMLTableDataCellElement> {
+interface CellProps extends React.TdHTMLAttributes<HTMLTableCellElement> {
   children?: React.ReactNode;
   className?: string;
 }

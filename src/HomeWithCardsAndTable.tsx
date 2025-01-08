@@ -124,7 +124,7 @@ function HomeWithCardsAndTable() {
               />
             </TextField>
           </div>
-          <div className="flex w-full flex-col items-start rounded-md border border-solid border-neutral-border bg-default-background shadow-sm">
+          <div className="flex min-w-fit w-full flex-col items-start rounded-md border border-solid border-neutral-border bg-default-background shadow-sm">
             <Table
               header={
                 <Table.HeaderRow>
